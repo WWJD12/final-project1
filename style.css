@@ -562,3 +562,57 @@ img {
     z-index: 0;
     display: block;
 }
+
+
+/* STEPS */
+
+section {
+    padding: 0 32px;
+}
+
+.container {
+    padding: 96px 0;
+}
+
+#steps .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.steps__description,
+.steps__img--wrapper {
+    width: 50%;
+}
+
+.steps__img--wrapper {
+    display: flex;
+    position: relative;
+}
+
+.steps__img {
+    z-index: 2;
+}
+
+img {
+    width: 100%;
+}
+
+.steps__grid {
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+    transform: translateX(-50%);
+    width: 10rem;
+    height: 10rem;
+    opacity: 0.8;
+    z-index: -10;
+    color: rgb(0, 0, 255);
+    fill: currentColor;
+}
