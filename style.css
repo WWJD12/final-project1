@@ -1002,7 +1002,7 @@ button {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        
+        flex-direction: row;
     }
 
     .row {
@@ -1080,6 +1080,8 @@ button {
 
 .testimonial__profile {
     display: flex;
+    align-items: center;
+    padding-top: 24px;
 }
 
 .testimonial__img {
@@ -1108,6 +1110,7 @@ button {
 .testimonial__buttons {
     display: flex;
     align-items: center;
+    padding-top: 16px;
 }
 
 .testimonial__button {
@@ -1139,6 +1142,86 @@ button {
     width: 0.5px;
     background-color: #edf2f7;
     height: 20px;
+}
+
+/* START */
+
+#start .row {
+    position: relative;
+    overflow: hidden;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.start__blob--1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 20rem;
+    width: 20rem;
+    transform: translate(-5rem, 8rem);
+    color: blue;
+    opacity: 0.5;
+}
+
+.start__blob--2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 20rem;
+    width: 20rem;
+    transform: translate(5rem, -16rem);
+    color: blue;
+    opacity: 0.5;
+}
+
+.start__container {
+    padding: 0 0;
+    width: 100%;
+    background-color: #0000ff;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start__row {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 0 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start__title{
+    color: #f7fafc;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5;
+    z-index: 2;
+}
+
+.start__title,
+.start__buttons {
+    width: 50%;
+}
+
+.start__buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.start__button:nth-child(1) {
+    background: #f56565;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    margin-right: 0;
+    transition: all 300ms ease;
 }
 
 
