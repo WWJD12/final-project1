@@ -995,13 +995,14 @@ button {
 
     /* TESTIMONIALS */
 
-    #testimonals .row {
+    #testimonials .row {
         margin-left: auto;
         margin-right: auto;
         max-width: 1200px;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        
     }
 
     .row {
@@ -1014,14 +1015,10 @@ button {
         width: 50%;
     }
 
-    img {
-        width: 100%;
-    }
-
     .testimonials__description {
         display: flex;
         flex-direction: column;
-        padding-left: 0;
+        padding-left: 64px;
     }
 
     .section__tag {
