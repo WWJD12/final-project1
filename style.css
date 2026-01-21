@@ -123,6 +123,11 @@ img {
     padding-bottom: 2px;
 }
 
+.nav__link--primary:hover{
+    background-color: #0091ff;
+    color: white;
+}
+
 .nav__link--primary {
     margin: 0;
     padding: 10px 32px;
@@ -281,6 +286,11 @@ header .row {
     bottom: 0;
     z-index: 1;
     transition: border-color 300ms;
+}
+
+.header__email--btn:hover {
+    background-color: #0091ff;
+    color: white;
 }
 
 .header__email--btn {
@@ -488,6 +498,11 @@ QUALITY
     font-weight: bold;
     transition: all 300ms ease;
     cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0091ff;
+    color: white;
 }
 
 .quality__img--wrapper {
@@ -753,6 +768,11 @@ QUALITY
     margin-top: 48px;
 }
 
+.btn:hover {
+    background-color: #0091ff;
+    color: white;
+}
+
 .values__img {
     width: 50%;
 }
@@ -959,10 +979,16 @@ button {
     border: none;
 }
 
+.plan__button:hover {
+    transform: translate(1px, -1px);
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
 .plan:nth-child(3) .plan__stripe,
 .plan:nth-child(3) .plan__button {
     color: #f7fafc;
     background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+
 }
 
 .plan:nth-child(1) .plan__middle,
@@ -1113,6 +1139,10 @@ button {
     padding-top: 16px;
 }
 
+.testimonial__button:hover {
+    background-color: rgb(229, 231, 235);
+}
+
 .testimonial__button {
     display: flex;
     justify-content: center;
@@ -1164,7 +1194,7 @@ button {
     height: 20rem;
     width: 20rem;
     transform: translate(-5rem, 8rem);
-    color: blue;
+    color: darkblue;
     opacity: 0.5;
 }
 
@@ -1175,12 +1205,12 @@ button {
     height: 20rem;
     width: 20rem;
     transform: translate(5rem, -16rem);
-    color: blue;
+    color: darkblue;
     opacity: 0.5;
 }
 
 .start__container {
-    padding: 0 0;
+    padding: 96px 0;
     width: 100%;
     background-color: #0000ff;
     border-radius: 8px;
@@ -1217,12 +1247,46 @@ button {
     justify-content: flex-end;
 }
 
+.start__button:hover:nth-child(1) {
+    background-color: rgba(229, 62, 62);
+}
+
 .start__button:nth-child(1) {
     background: #f56565;
     box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-    margin-right: 0;
+    margin-right: 32px;
     transition: all 300ms ease;
 }
+
+.start__button {
+    padding: 20px 40px;
+    border-radius: 500px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #f7fafc;
+    line-height: 1.5;
+    letter-spacing: 0.025;
+    margin: 1px;
+    z-index: 2;
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+}
+ 
+.start__button:hover:nth-child(2) {
+    background-color: rgba(247, 250, 252);
+    color: #0000ff;
+}
+.start__button:nth-child(2) {
+    border: 1px solid rgb(160, 174, 192);
+    transition: all 300ms ease;
+}
+
+/* FOOTER */
+
+
 
 
 
