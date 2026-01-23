@@ -130,7 +130,7 @@ img {
 }
 
 .nav__link--primary:hover{
-    background-color: #0091ff;
+    background-color: darkblue;
     color: white;
     text-decoration: none;
 }
@@ -170,13 +170,14 @@ img {
 a {
     display: inline;
     text-decoration: none;
+    
 } 
 
 a:hover {
     text-decoration: underline;
     text-decoration-color: #0000ff;
     text-decoration-thickness: 2px;
-    text-underline-offset: 4px;
+    text-underline-offset: 10px;
 }
 
 /* Menu */
@@ -306,7 +307,7 @@ header .row {
 }
 
 .header__email--btn:hover {
-    background-color: #0091ff;
+    background-color: darkblue;
     color: white;
 }
 
@@ -518,7 +519,7 @@ QUALITY
 }
 
 .btn:hover {
-    background-color: #0091ff;
+    background-color: darkblue;
     color: white;
 }
 
@@ -786,7 +787,7 @@ QUALITY
 }
 
 .btn:hover {
-    background-color: #0091ff;
+    background-color: darkblue;
     color: white;
 }
 
